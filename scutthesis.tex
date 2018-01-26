@@ -10,9 +10,9 @@
  bookmarks=true,bookmarksnumbered=true,bookmarksopen=false,
  breaklinks=false,pdfborder={0 0 1},backref=false,colorlinks=true]
  {hyperref}
-\hypersetup{pdftitle={博士论文标题},
+\hypersetup{pdftitle={学术型硕士论文标题},
  pdfauthor={你的名字},
- pdfsubject={华南理工大学博士学位论文},
+ pdfsubject={华南理工大学学术型硕士学位论文},
  pdfkeywords={关键字1, 关键字2},
  unicode=false,linkcolor=blue, anchorcolor=black, citecolor=olive, filecolor=magenta, menucolor=red, urlcolor=magenta, pdfstartview=FitH}
 
@@ -42,7 +42,7 @@
 \supervisor{指导教师：高德纳\ 教授}
 
 
-\institute{华南理工大学-test}
+\institute{华南理工大学}
 
 
 \date{2010年4月13日}
@@ -50,7 +50,7 @@
 \maketitle
 \frontmatter
 \begin{abstractCN}
-论文排版对科技工作者来说一直是一个公认的繁琐事情。使用\LaTeX{}排版的突出缺点是控制符和文本符同时显现，容易干扰用户文本内容输入。鉴于此，本文提出了一种新颖的\LyX{}+Xe\LaTeX{}+\LaTeX{}组合的论文排版编辑方式。该排版方式取\LyX{}之长弥补\LaTeX{}的不足点，使得同时具有MS\ Word和\TeX{}排版两方面优势，同时基于Uincode的Xe\LaTeX{}引擎不仅使得文字兼容性增强，而且使用更方便。本文还以设计一套符合华南理工大学博士论文规范的\LaTeX{}/\LyX{}模板为例，验证了该组合方式的可行性。
+在此处书写中文摘要
 \end{abstractCN}
 
 \keywordsCN{\LaTeX{}；\LyX{}；排版；论文}
@@ -76,8 +76,6 @@ in order to verify the feasibility of the combination.
 
 
 \listoffigures
-
-
 
 \chapterx{主要符号对照表}
 
@@ -372,7 +370,7 @@ scutthesis的\LaTeX{}宏包部分参考过的模板：
 你也可以通过\LyX{}间接地使用\LaTeX{}模板类（way\ 2），不需要直面\LaTeX{}源代码。在\LyX{}中采用scutthesis.layout布局，输入你的论文内容如scutthesis.lyx格式,再一键调用Xe\LaTeX{}自动编译成scutthesis.tex文件，并加入scutthesis.cls和scutthesis.bst生成最终的pdf文件。
 详细的设计内容，见发布包中的scutthesis.pdf文件。
 
-\begin{figure}
+\begin{figure}[!ht]
 \begin{centering}
 \includegraphics[scale=0.6]{figure/scutthesis}
 \par\end{centering}
@@ -604,7 +602,7 @@ y=mx+c
 \begin{equation}
 \label{eq:split} 
 \begin{split}    
-  y&=mx+c\\        & \quad(n+o)x+c\\        &=1  
+  y&=mx+c\\        & =(n+o)x+c\\        &=1  
 \end{split} 
 \end{equation}
 
@@ -618,7 +616,7 @@ x=(n-2)+d
 
 模版提供了多种定理环境：命题(proposition)，引理(lemma)，定理(theorem)，公理(axiom)，推论(corollary)，情形(case)，猜想(conjecture)，性质(property)，还有定义(definition)，例(example)，注(remark)。下面以常见的环境作例子。
 \begin{theorem}
-中国人是人\end{theorem}
+地球是椭球形的\end{theorem}
 \begin{proof}
 把证明内容放到\textbackslash{}begin\{proof\} 和\textbackslash{}end\{proof\} 
 \end{proof}
@@ -760,7 +758,7 @@ latex=xelatex
 总体来说，\LyX{}、Xe\LaTeX{}和\LaTeX{}组合实现了一种优势互补，使得科技文献的编辑排版工作量大为下降。
 
 \bibliographystyle{scutthesis}
-\bibliography{scutthesis}
+\bibliography{reference}
 
 
 
