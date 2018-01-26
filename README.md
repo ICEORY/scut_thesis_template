@@ -10,11 +10,13 @@
 
 ### 如何使用：
 
-1. 提名页直接在 thesis_cover.docx 中进行修改，然后导出为pdf，覆盖原来的 thesis_cover.pdf 文件即可
+1. 编译：使用xelatex进行编译（支持中文）， texsudio 设置：options --> configure --> build --> default compiler --> select xelatex 
 
-2. 论文的模板定义在 scutthesis.cls 中进行修改，如果看不懂怎么修改的话，最好不要动这个文件。
+2. 提名页直接在 thesis_cover.docx 中进行修改，然后导出为pdf，覆盖原来的 thesis_cover.pdf 文件即可
 
-3. 个别细节的调整：超链接的颜色或者引用的颜色，在scutthesis.tex 内容的开头 \hypersetup 中进行自定义
+3. 论文的模板定义在 scutthesis.cls 中进行修改，如果看不懂怎么修改的话，最好不要动这个文件。
+
+4. 个别细节的调整：超链接的颜色或者引用的颜色，在scutthesis.tex 内容的开头 \hypersetup 中进行自定义
 
    ```latex
    \hypersetup{pdftitle={学术型硕士论文标题},
@@ -24,6 +26,6 @@
     unicode=false,linkcolor=black, anchorcolor=black, citecolor=olive, filecolor=magenta, menucolor=red, urlcolor=magenta, pdfstartview=FitH}
    ```
 
-4. 参考文件的格式在 scutthesis.bst 中定义
+5. 参考文件的格式在 scutthesis.bst 中定义
 
-5. 添加参考文献在 reference.bib 中进行修改
+6. 添加参考文献在 reference.bib 中进行修改
