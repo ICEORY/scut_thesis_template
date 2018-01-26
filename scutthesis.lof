@@ -1,0 +1,11 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2-1}{\ignorespaces 如果图题太长，在这里写个短标题只在图索引中出现}}{3}{figure.caption.10}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3-1}{\ignorespaces 流程框架、模板使用和文件关系\relax }}{10}{figure.caption.12}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4-1}{\ignorespaces 这个标题会出现在索引中}}{14}{figure.caption.13}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5-1}{\ignorespaces Texlive的GUI安装的主界面，推荐选择创建系统的symlinks\relax }}{23}{figure.caption.15}
+\contentsline {figure}{\numberline {5-2}{\ignorespaces Texlive GUI安装的语言支持选择界面，对于普通中文用户推荐选择中文和英文支持\relax }}{23}{figure.caption.16}
+\contentsfinish 
